@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tugas_kelompok_2/home/aksesoris.dart';
 import 'package:tugas_kelompok_2/home/menu.dart';
 import 'package:tugas_kelompok_2/home/barang.dart';
 import 'package:tugas_kelompok_2/home/profile.dart';
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => Menu(),
         '/barang': (context) => Barang(),
         '/profile': (context) => Profile(),
+        '/aksesoris': (context) => AksesorisPage(),
       },
     );
   }
