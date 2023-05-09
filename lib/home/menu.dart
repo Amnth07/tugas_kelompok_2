@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tugas_kelompok_2/home/pesanan.dart';
 import 'package:tugas_kelompok_2/home/barang.dart';
 import 'package:tugas_kelompok_2/home/profile.dart';
+import 'package:tugas_kelompok_2/home/tentangkami.dart';
 
 class Menu extends StatelessWidget {
   const Menu({super.key});
@@ -132,7 +133,7 @@ class NavBar extends StatelessWidget {
               ),
               InkWell(
                 onTap: () {
-                  Navigator.pushNamed(context, '/about');
+                  Navigator.pushNamed(context, '/tentangkami');
                 },
                 child: Column(
                   children: [
