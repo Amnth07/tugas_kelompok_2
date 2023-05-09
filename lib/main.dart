@@ -3,6 +3,7 @@ import 'package:tugas_kelompok_2/home/aksesoris.dart';
 import 'package:tugas_kelompok_2/home/menu.dart';
 import 'package:tugas_kelompok_2/home/barang.dart';
 import 'package:tugas_kelompok_2/home/profile.dart';
+import 'package:tugas_kelompok_2/home/tentangkami.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
         '/barang': (context) => Barang(),
         '/profile': (context) => Profile(),
         '/aksesoris': (context) => AksesorisPage(),
+        '/tentangkami':(context) => TentangKami(),
       },
     );
   }
