@@ -66,11 +66,28 @@ class NavBar extends StatelessWidget {
                 child: Column(
                   children: [
                     Icon(
-                      Icons.message,
+                      Icons.shopping_basket,
                       color: Color(0xFF9E9E9E),
                     ),
                     Text(
                       'Barang',
+                      style: TextStyle(fontSize: 12.00),
+                    )
+                  ],
+                ),
+              ),
+              InkWell(
+                onTap: () {
+                  Navigator.pushNamed(context, '/aksesoris');
+                },
+                child: Column(
+                  children: [
+                    Icon(
+                      Icons.shopping_bag,
+                      color: Colors.black45,
+                    ),
+                    Text(
+                      'Aksesoris',
                       style: TextStyle(fontSize: 12.00),
                     )
                   ],
@@ -107,7 +124,24 @@ class NavBar extends StatelessWidget {
                       color: Colors.black45,
                     ),
                     Text(
-                      'profile',
+                      'Profile',
+                      style: TextStyle(fontSize: 12.00),
+                    )
+                  ],
+                ),
+              ),
+              InkWell(
+                onTap: () {
+                  Navigator.pushNamed(context, '/about');
+                },
+                child: Column(
+                  children: [
+                    Icon(
+                      Icons.info,
+                      color: Colors.black45,
+                    ),
+                    Text(
+                      'Tentang Kami',
                       style: TextStyle(fontSize: 12.00),
                     )
                   ],
