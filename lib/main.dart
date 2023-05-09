@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tugas_kelompok_2/home/menu.dart';
 import 'package:tugas_kelompok_2/home/barang.dart';
 import 'package:tugas_kelompok_2/home/profile.dart';
+import 'package:tugas_kelompok_2/home/TentangKami.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => Menu(),
         '/barang': (context) => Barang(),
         '/profile': (context) => Profile(),
+        '/TentangKami': (contex) => TentangKami(),
       },
     );
   }

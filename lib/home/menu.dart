@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tugas_kelompok_2/home/pesanan.dart';
 import 'package:tugas_kelompok_2/home/barang.dart';
 import 'package:tugas_kelompok_2/home/profile.dart';
-
+import 'package:tugas_kelompok_2/home/TentangKami.dart';
 class Menu extends StatelessWidget {
   const Menu({super.key});
   @override
