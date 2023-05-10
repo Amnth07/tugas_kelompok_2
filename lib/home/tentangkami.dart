@@ -15,12 +15,12 @@ class TentangKami extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'Perusahaan Jual Beli Motor XYZ',
+              'Perusahaan Jual Beli Motor baru dan bekas',
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 16),
             Text(
-              'Perusahaan Jual Beli Motor XYZ didirikan pada tahun 2000 dengan tujuan untuk memberikan solusi terbaik bagi masyarakat yang membutuhkan kendaraan motor. Kami berkomitmen untuk memberikan layanan terbaik dalam penjualan motor bekas dan baru, serta aksesoris yang berkualitas dan terpercaya.',
+              'Perusahaan Jual Beli Motor  didirikan pada tahun 2020 dengan tujuan untuk memberikan solusi terbaik bagi masyarakat yang membutuhkan kendaraan motor. Kami berkomitmen untuk memberikan layanan terbaik dalam penjualan motor bekas dan baru, serta aksesoris yang berkualitas dan terpercaya.',
               style: TextStyle(fontSize: 16),
             ),
             SizedBox(height: 16),
